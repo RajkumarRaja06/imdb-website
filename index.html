@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IMDB</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div>
+        <input type="checkbox" class="nav-checkbox" id="toggle">
+        <label for="toggle"></label>
+      </div>
+      <div class="nav-bar-flex">
+        <div class="movies">
+          <h1>Movies</h1>
+          <ul class="nav-bar-list">
+            <li><a href="#" class="nav-bar-link">Release Calender</a></li>
+            <li><a href="#" class="nav-bar-link">Top 250 Movies</a></li>
+            <li><a href="#" class="nav-bar-link">Most Popular Movies</a></li>
+            <li><a href="#" class="nav-bar-link">Browse Movies by Genre</a></li>
+            <li><a href="#" class="nav-bar-link">Top Box Office</a></li>
+            <li><a href="#" class="nav-bar-link">Showtimes & Tickets</a></li>
+            <li><a href="#" class="nav-bar-link">Movie News</a></li>
+            <li><a href="#" class="nav-bar-link">India Movies Spotlight</a></li>
+          </ul>
+        </div>
+        <div class="tv-shows">
+          <h1>TV Shows</h1>
+          <ul class="nav-bar-list">
+            <li><a href="#" class="nav-bar-link">What's on TV & Streaming</a></li>
+            <li><a href="#" class="nav-bar-link">Top 250 TV shows</a></li>
+            <li><a href="#" class="nav-bar-link">Most Popular TV Shows</a></li>
+            <li><a href="#" class="nav-bar-link">Browse TV Shows by Genre</a></li>
+            <li><a href="#" class="nav-bar-link">TV News</a></li>
+            <li><a href="#" class="nav-bar-link">India TV Spotlight</a></li>
+          </ul>
+        </div>
+        <div class="watch">
+          <h1>Watch</h1>
+          <ul class="nav-bar-list">
+            <li><a href="#" class="nav-bar-link">What to Watch</a></li>
+            <li><a href="#" class="nav-bar-link">Latest Trailers</a></li>
+            <li><a href="#" class="nav-bar-link">IMDB Originals</a></li>
+            <li><a href="#" class="nav-bar-link">ImDB Picks</a></li>
+            <li><a href="#" class="nav-bar-link">IMDB Podcasts</a></li>
+          </ul>
+        </div>
+        <div class="awards-enents">
+          <h1>Awards & Events</h1>
+          <ul class="nav-bar-list">
+            <li><a href="#" class="nav-bar-link">Oscars</a></li>
+            <li><a href="#" class="nav-bar-link">Best Picture Winners</a></li>
+            <li><a href="#" class="nav-bar-link">Emmys</a></li>
+            <li><a href="#" class="nav-bar-link">STARmeter Awards</a></li>
+            <li><a href="#" class="nav-bar-link">San Diego COmic-Con</a></li>
+            <li><a href="#" class="nav-bar-link">New York COmic-Con</a></li>
+            <li><a href="#" class="nav-bar-link">Sundance Film Festival</a></li>
+            <li><a href="#" class="nav-bar-link">Toronto Int'l Film Festival</a></li>
+            <li><a href="#" class="nav-bar-link">Awards Central</a></li>
+            <li><a href="#" class="nav-bar-link">Festivel Central</a></li>
+            <li><a href="#" class="nav-bar-link">All Events</a></li>
+          </ul>
+        </div>
+        <div class="celebs">
+          <h1>Celebs</h1>
+          <ul class="nav-bar-list">
+            <li><a href="#" class="nav-bar-link">Born Today</a></li>
+            <li><a href="#" class="nav-bar-link">Most Popular Celebs</a></li>
+            <li><a href="#" class="nav-bar-link">Celebrity News</a></li>
+          </ul>
+        </div>			
+        <div class="community">
+          <h1>Community</h1>
+          <ul class="nav-bar-list">
+            <li><a href="#" class="nav-bar-link">Help Center</a></li>
+            <li><a href="#" class="nav-bar-link">Contributor Zone</a></li>
+            <li><a href="#" class="nav-bar-link">Polls</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="imdb">
+        <button class="imdb-button">IMDb</button>
+      </div>
+      <div class="search-bar">
+        <div class="dropdown">
+          <button class="dropdown-button">All</button>
+          <div class="dropdown-link">
+            <a href="#"><i class="fa fa-film"></i>Titles</a>
+            <a href="#"><i class="fa fa-television"></i>Tv Episodes</a>
+            <a href="#"><i class="fa fa-male"></i>Celebs</a>
+            <a href="#"><i class="fa fa-home"></i>Companies</a>
+          </div>
+        </div>
+        <input type="text" name="search" placeholder="Search....">
+        <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+      </div><br>
+      <div class="imdbpro">
+        <button class="imdbpro-button">IMDbPro</button>
+      </div>
+      <div class="button-right">
+        <div class="watchlist">
+          <button class="watchlist-button"><i class="fa fa-plus-square-o"></i>Watchlist</button>
+        </div>
+        <div class="signin">
+          <button class="signin-button">SignIn</button>
+        </div>
+        <div class="dropdown-language">
+          <button class="dropdown-language-button">En</button>
+          <div class="dropdown-language-link">
+            <a href="#">English(United States)</a>
+            <a href="#">Francais(Canada)</a>
+            <a href="#">Francais(France)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="slider">
+        <figure>
+          <img src="image/1.jpg">
+          <img src="image/2.jpg">
+          <img src="image/3.jpg">
+          <img src="image/4.jpg">
+          <img src="image/5.jpg">
+          <img src="image/6.jpg">
+          <img src="image/7.jpg">
+          <img src="image/1.jpg">
+        </figure>
+      </div>
+      <div class="headline-text">
+        <h1>Featured today</h1>
+      </div>
+      <div class="slider-2">
+        <figure>
+          <div class="slider-flex-1">
+            <img src="image/22.jpg">
+            <h3>New and Upcoming Prequels,Sequels,and Spin-Offs</h3>
+          </div>
+          <div class="slider-flex-2">
+            <img src="image/20.jpg">
+            <h3>Before They Were Famous:Actors'Earely Roles</h3>
+          </div>
+          <div class="slider-flex-3">
+            <img src="image/23.jpg">
+            <h3>Woulds You Recognize These Child Stars Today?</h3>
+          </div>
+        </figure>
+      </div>
+      <div class="headline">
+        <h4>What to Watch</h4>
+      </div>
+      <div class="watchlist-headline">
+        <h3>From Your Watchlist <i class="arrow right"></i></h3>
+      </div>
+      <div class="watchlist-sign-in">
+        <i class="fa fa-plus-square-o"></i>
+        <h6>Sign in to access your Watchlist</h6>
+        <p>Save shows and movies to keep track of what you want to watch.</p>
+        <button>Sign in to IMDb</button>
+      </div>
+      <div class="watchlist-headline-1">
+        <h3>More to Watch</h3>
+        <p>IMDb helps you select the perfect next show or movie to watch</p>
+        <div>
+          <button>Watch Guide</button>
+          <button>Most Popular</button>
+        </div>
+      </div>
+      <div class="headline-1">
+        <h4>Exclusive videos</h4>
+      </div>
+      <div class="watchlist-headline-2">
+        <h3>More to Watch</h3>
+        <p>IMDb helps you select the perfect next show or movie to watch</p>
+      </div>
+      <div class="slider-2">
+        <figure>
+          <div class="slider-flex-1">
+            <img src="image/24.jpg">
+            <h3>New and Upcoming Prequels,Sequels,and Spin-Offs</h3>
+          </div>
+          <div class="slider-flex-2">
+            <img src="image/27.jpg">
+            <h3>Before They Were Famous:Actors'Earely Roles</h3>
+          </div>
+          <div class="slider-flex-3">
+            <img src="image/28.jpg">
+            <h3>Woulds You Recognize These Child Stars Today?</h3>
+          </div>
+        </figure>
+      </div>
+      <div class="headline-2">
+        <h4>Explore what's streaming</h4>
+      </div>
+      <div class="streaming">
+        <ul>
+          <li>prime video</li>
+          <li>netflix</li>
+          <li>hotstar</li>
+          <li>mx player</li>
+          <li>jiocinema</li>
+          <li>sonyliv</li>
+          <li>erosnow</li>
+          <li>voot</li>
+        </ul>
+      </div><br><br><br>
+      <div class="prime">
+        <p>Include with Prime</p>
+      </div>
+      <div class="streaming-grid">
+        <div class="streaming-movie">
+          <div class="image">
+            <img src="image/31.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>The Office</p>
+          </div>
+          <div class="image-button">
+            
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie">
+          <div class="image">
+            <img src="image/32.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>Grease the World</p>
+          </div>
+          <div class="image-button">
+            
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie" id="streaming-movie-1">
+          <div class="image">
+            <img src="image/33.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>A League of Their Own</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie">
+          <div class="image">
+            <img src="image/34.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>Bullet Train</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie" id="streaming-movie-2">
+          <div class="image">
+            <img src="image/35.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>The Boys</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie" id="streaming-movie-3">
+          <div class="image">
+            <img src="image/36.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>Do Baaraa</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+      </div>
+      <div class="headline-3">
+        <h4>Explore Movies & TV Shows</h4>
+      </div>
+      <div class="watchlist-headline">
+        <h3>In theaters<i class="arrow right"></i></h3>
+      </div>
+      <div class="prime">
+        <p>Show time near you</p>
+      </div>
+      <div class="streaming-grid">
+        <div class="streaming-movie">
+          <div class="image">
+            <img src="image/31.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>The Office</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie">
+          <div class="image">
+            <img src="image/32.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>Grease the World</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie" id="streaming-movie-1">
+          <div class="image">
+            <img src="image/33.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>A League of Their Own</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie">
+          <div class="image">
+            <img src="image/34.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>Bullet Train</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie" id="streaming-movie-2">
+          <div class="image">
+            <img src="image/35.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>The Boys</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+        <div class="streaming-movie" id="streaming-movie-3">
+          <div class="image">
+            <img src="image/36.jpg">
+          </div>
+          <div class="image-text">
+            <span class="star">&star;</span>
+            <span class="rating">9.9</span>
+            <p>Do Baaraa</p>
+          </div>
+          <div class="image-button">
+            <button>Watchlist</button>
+          </div>
+        </div>
+      </div>
+      <div class="watchlist-headline">
+        <h3>Top box office (US)<i class="arrow right"></i></h3>
+      </div>
+      <div class="prime">
+        <p>Weakend of August 19-21</p>
+      </div>
+      <div class="box-office">
+        <div class="box-left">
+          <div class="box-1" id="box-1">
+            <h5>1</h5>
+            <i class="fa fa-plus-square-o"></i>
+            <div class="box-text">
+              <h3>Dragon Ball Super:Super Hero </h3>
+              <p>$21 M</p>
+            </div>
+          </div>
+          <div class="box-1" id="box-2">
+            <h5>2</h5>
+            <i class="fa fa-plus-square-o"></i>
+            <div class="box-text">
+              <h3>Beast</h3>
+              <p>$12 M</p>
+            </div>
+          </div>
+          <div class="box-1" id="box-3">
+            <h5>3</h5>
+            <i class="fa fa-plus-square-o"></i>
+            <div class="box-text">
+              <h3>Bullet Train</h3>
+              <p>$8 M</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-right">
+          <div class="box-1" id="box-4">
+            <h5>4</h5>
+            <i class="fa fa-plus-square-o"></i>
+            <div class="box-text">
+              <h3>Top Gun:Maverick</h3>
+              <p>$5.9 M</p>
+            </div>
+          </div>
+          <div class="box-1" id="box-5">
+            <h5>5</h5>
+            <i class="fa fa-plus-square-o"></i>
+            <div class="box-text">
+              <h3>DC League of Super-Pets</h3>
+              <p>$5.7 M</p>
+            </div>
+          </div>
+          <div class="box-1" id="box-6">
+            <h5>6</h5>
+            <i class="fa fa-plus-square-o"></i>
+            <div class="box-text">
+              <h3>Thor:Love and Thunder</h3>
+              <p>$4.1 M</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="headline-3">
+        <h4>Explore Movies & TV Shows</h4>
+      </div>
+      <div class="watchlist-headline">
+        <h3>Editor's picks<i class="arrow right"></i></h3>
+      </div>
+      <div class="slider-2">
+        <figure>
+          <div class="slider-flex-1">
+            <img src="image/46.jpg">
+            <h3>New and Upcoming Prequels,Sequels,and Spin-Offs</h3>
+          </div>
+          <div class="slider-flex-2">
+            <img src="image/48.jpg">
+            <h3>Before They Were Famous:Actors'Earely Roles</h3>
+          </div>
+          <div class="slider-flex-3">
+            <img src="image/50.jpg">
+            <h3>Woulds You Recognize These Child Stars Today?</h3>
+          </div>
+        </figure>
+      </div>
+      <div class="watchlist-headline-3">
+        <h3>Born today<i class="arrow right"></i></h3>
+      </div>
+      <div class="prime">
+        <p>People born on August 24</p>
+      </div>
+      <div class="born-today">
+        <div class="born-today-image">
+          <div class="round-image">
+            <img src="image/39.jpg">
+          </div>
+          <div class="round-image-text">
+            <p>Elizabeth Debicki</p>
+            <h5>32</h5>
+          </div>
+        </div>
+        <div class="born-today-image">
+          <div class="round-image">
+            <img src="image/40.jpg">
+          </div>
+          <div class="round-image-text">
+            <p>Stephen Fry</p>
+            <h5>65</h5>
+          </div>
+        </div>
+        <div class="born-today-image">
+          <div class="round-image">
+            <img src="image/41.jpg">
+          </div>
+          <div class="round-image-text">
+            <p>Griffin Gluck</p>
+            <h5>22</h5>
+          </div>
+        </div>
+        <div class="born-today-image">
+          <div class="round-image">
+            <img src="image/42.jpg">
+          </div>
+          <div class="round-image-text">
+            <p>Chad Michael Murray</p>
+            <h5>41</h5>
+          </div>
+        </div>
+        <div class="born-today-image" id="born-today-image">
+          <div class="round-image">
+            <img src="image/43.jpg">
+          </div>
+          <div class="round-image-text">
+            <p>Jared Harris</p>
+            <h5>61</h5>
+          </div>
+        </div>
+        <div class="born-today-image" id="born-today-image">
+          <div class="round-image">
+            <img src="image/44.jpg">
+          </div>
+          <div class="round-image-text">
+            <p>Grey Grffin</p>
+            <h5>30</h5>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <div>
+          <ul>
+            <li>Help</li>
+            <li>Site Index</li>
+            <li>IMDbPro</li>
+            <li>Box Office Mojo</li>
+            <li>IMDb Developer</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Press Room</li>
+            <li>Advertising</li>
+            <li>Job</li>
+            <li>Conditions of Use</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="company">an amazon company</div>
+      </footer>
+    </main>
+  </body>
+</html>
